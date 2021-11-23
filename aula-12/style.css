@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Rubik:ital,wght@0,400;0,500;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../aula-12/logos/elevador-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* nome da cidade*/
+header {
+  margin: 0;
+  padding: 20px;
+  background: hsla(209, 33%, 56%, 0.931);
+}
+
+.cidadedosalvador {
+  font-family: cursive;
+  font-size: 50px;
+  color: hsl(66, 75%, 70%);
+  text-align: center;
+}
+
+/* titulo do texto*/
+h1 {
+  font-family: 'Concert one';
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+/*texto*/
+main p {
+  font-family: 'Rubik:ital';
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  font-style: italic;
+}
+
+/* destaque do texto*/
+span {
+  background: hsl(66, 50%, 34%);
+}
+
+/* video sobre a cidade*/
+.video-do-youtube {
+  width: 1280px;
+  height: 720px;
+  position: relative;
+}
+
+iframe {
+  position: absolutere;
+  left: 100px;
+  right: 0px;
+}
+
+/* botão youtube*/
+.botão-youtube {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: -430px;
+  right: 580px;
+  background-color: rgb(236, 13, 13);
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 40px;
+  z-index: 1000;
+}
+
+.fa-youtube {
+  margin-top: 10px;
+}
+
+/* botão instagram*/
+.botão-instagram {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: -430px;
+  right: 650px;
+  background-color: rgb(241, 44, 175);
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 40px;
+  z-index: 1000;
+}
+
+.fa-instagram {
+  margin-top: 10px;
+}
+
+/* subititulo*/

@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+/* bola animada*/
+div{
+    margin: 20px;
+    text-align: center;
+}
+
+.bolaAnimada {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: orange;
+    border-radius: 50%;
+    animation-name: deslizar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+    
+}
+
+@keyframes deslizar {
+    0% {opacity: 0%; left: 0px;}
+    25% {opacity: 25%; left: 100px;}
+    50% {opacity: 50%; left: 150px;}
+    75% {opacity: 75%; left: 200px;}
+    100% {opacity: 100%; left: 200px;}  
+}
+
+/*icone animado*/
+.icone {
+    margin: 120px;
+    width: 200px;
+    transition: .3s transform;
+}
+
+.icone img {
+    border: 1px solid;
+    width: 300px;
+    transform: rotateX(400px);
+}
+
+.icone:hover {
+    transform: rotate(90deg);
+    transform:rotateX(20px) ;
+}
+
+/* botão animado*/
+.botão {
+    margin-right: 900px;
+    width: 100px;
+    height: 60px;
+    background-color: rgb(221, 243, 200);
+    border-radius: 20px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.botão:hover {
+    background-color: green;
+    transition-duration: 4s;
+}
+
+
